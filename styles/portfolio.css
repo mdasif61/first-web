@@ -1,0 +1,112 @@
+body{
+    margin:0px auto;
+    background-color: rgba(230, 225, 218, 0.877);
+    font-family: 'Merriweather', serif;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    color:white;
+    border:none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: Merriweather;
+}
+.btn-primary:hover{
+    background-color: transparent;
+    border:1px solid #FD6E0A;
+    color:#FD6E0A;
+}
+.mary-logo{
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 80px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin:20px;
+    color:rgba(66, 66, 66, 0.822);
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 80px;
+}
+.msg{
+  margin-bottom: -20px;
+  color:rgb(109, 106, 106)
+}
+.title{
+    font-size: 50px;
+    margin-bottom: -6px;
+}
+.desc{
+    font-size: 10px;
+    width:300px;
+    color:rgb(116, 113, 113)
+}
+.photo{
+    width:300px;
+}
+.btn-primary-contact{
+    background-color: transparent;
+    border:1px solid #FD6E0A;
+    color:black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: Merriweather;
+    margin-left: 10px;
+    margin-top:10px;
+}
+.dnd{
+    margin-top:10px;
+}
+header{
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 50%;
+}
+.main{
+    width:60%;
+    background-color: rgb(226, 226, 216);
+    border-radius: 10px;
+    text-align: center;
+    margin:0 auto;
+    padding: 50px 50px;
+    margin-top:50px;
+}
+.a-desc{
+    font-size: 10px;
+    color:rgb(77, 72, 72)
+}
+.about{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.main:hover{
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.137);
+}
+.about-title{
+    font-size: 10px;
+    color:rgb(70, 69, 69);
+}
+.about-subt{
+    font-size: 12px;
+    text-align: center;
+    margin-top:-8px;
+    color:black;
+}
+.item{
+    margin:0 15px;
+}
