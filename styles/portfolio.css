@@ -1,6 +1,6 @@
 body{
     margin:0px auto;
-    background-color: rgba(230, 225, 218, 0.877);
+    background-color: rgb(226, 214, 198);
     font-family: 'Merriweather', serif;
 }
 .btn-primary{
@@ -50,8 +50,8 @@ nav ul li{
     margin-bottom: -6px;
 }
 .desc{
-    font-size: 10px;
-    width:300px;
+    font-size: 12px;
+    width:450px;
     color:rgb(116, 113, 113)
 }
 .photo{
@@ -78,7 +78,7 @@ header{
 }
 .main{
     width:60%;
-    background-color: rgb(226, 226, 216);
+    background-color: rgba(211, 211, 186, 0.726);
     border-radius: 10px;
     text-align: center;
     margin:0 auto;
@@ -86,8 +86,10 @@ header{
     margin-top:50px;
 }
 .a-desc{
-    font-size: 10px;
-    color:rgb(77, 72, 72)
+    font-size: 12px;
+    color:rgb(77, 72, 72);
+    width:600px;
+    margin:0 auto;
 }
 .about{
     display: flex;
@@ -109,4 +111,95 @@ header{
 }
 .item{
     margin:0 15px;
+}
+.what-sec{
+    margin:0 150px;
+    text-align: center;
+}
+.i-do{
+    font-size: large;
+    margin-top:20px;
+}
+.i-do-info{
+    color:rgb(97, 93, 93);
+    width:600px;
+    margin:0 auto;
+    font-size: 13px;
+}
+.skills-sec{
+    display: flex;
+    margin:0 200px;
+    margin-top:50px;
+}
+.skill-con{
+    background-color: rgb(231, 222, 210);
+    margin:10px;
+    padding: 15px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.090);
+    border-radius: 10px;
+}
+.s-title{
+    font-weight: bold;
+}
+.s-sub{
+    color:rgba(0, 0, 0, 0.644);
+    font-size: 13.5px;
+}
+.resume-sec{
+    text-align: center;
+    margin:100px 150px;
+}
+.resume{
+    display: flex;
+    text-align: left;
+}
+.edu-item{
+    margin:50px 30px;
+}
+.p1{
+    font-weight: bold;
+    color:rgb(66, 66, 66);
+    font-size: 13px;
+    margin-top:-10px;
+}
+.myedu{
+    margin:0 30px;
+    text-align: left;
+    
+}
+.myexp{
+    margin:0 30px;
+    text-align: left;
+    
+}
+/* .edu{
+    text-align: center;
+    margin:0 auto;
+} */
+.p2{
+    color:rgb(83, 82, 82);
+    font-size: 12px;
+}
+.margin-class{
+    margin-bottom: 50px;
+}
+.contact{
+    display: flex;
+    margin:50px 100px;
+    justify-content: space-around;
+}
+.con-para{
+    font-size: 12px;
+    width:450px;
+    margin-bottom: 30px;
+    color:rgb(70, 67, 67);
+}
+input, textarea{
+    border:none;
+    outline:none;
+    background-color: beige;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px 10px;
+    width:100%;
 }
