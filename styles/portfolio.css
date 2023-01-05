@@ -1,6 +1,6 @@
 body{
     margin:0px auto;
-    background-color: rgb(226, 214, 198);
+    background-color: rgb(231, 225, 217);
     font-family: 'Merriweather', serif;
 }
 .btn-primary{
@@ -17,9 +17,7 @@ body{
     border:1px solid #FD6E0A;
     color:#FD6E0A;
 }
-.mary-logo{
 
-}
 nav{
     display: flex;
     justify-content: space-between;
